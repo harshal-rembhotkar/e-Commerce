@@ -1,4 +1,4 @@
-## Run Locally
+## Prerequisites
 
 Clone the project
 
