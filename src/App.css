@@ -1,0 +1,68 @@
+
+.wallet-connect-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.wallet-status {
+  margin-bottom: 20px;
+}
+
+.status-message {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.network-message {
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+.wallet-actions {
+  margin-bottom: 15px;
+}
+
+.connected-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  min-width: 120px;
+}
+
+.spinner-border-sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media (max-width: 576px) {
+  .connected-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .connected-actions .btn {
+    width: 100%;
+  }
+}
+
+.transaction-status-container {
+  margin-top: 20px;
+}
+
+.transaction-status-container .alert {
+  margin-bottom: 0;
+}
+
+.transaction-status-container a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.transaction-status-container a:hover {
+  text-decoration: underline;
+}
